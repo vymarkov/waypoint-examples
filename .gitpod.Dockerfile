@@ -8,4 +8,4 @@ RUN curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add - &&\
 
 RUN brew install doctl
 
-ENV HOME=$GITPOD_REPO_ROOT/.tmp
+# ENV HOME=$GITPOD_REPO_ROOT/.tmp
